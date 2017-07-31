@@ -15,4 +15,8 @@ $(document).ready(function () {
             '<button class="delete">Delete</button>' +
             '</div>');
     });
+
+    $('#container').on('click', '.delete', function(){
+        ($(this)).parent().remove();
+    });
 });
