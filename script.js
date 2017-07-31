@@ -13,7 +13,7 @@ $(document).ready(function () {
 // Generate div
 function generateDiv() {
     buttonClickCounter++;
-    $('#container').append('<div class="generated">' +
+    $('#container').append('<div class="generatedDiv">' +
         '<p class="buttonCounter">' +
         buttonClickCounter +
         '</p>' +
