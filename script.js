@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     // console.log('script and jquery sourced');
 
@@ -6,8 +5,14 @@ $(document).ready(function () {
     var buttonClickCounter = 0;
 
     // Event handler for generate button
-    $('#generate').on('click', function(){
+    $('#generate').on('click', function () {
         buttonClickCounter++;
-        $('#container').append('<div><p class="buttonCounter">' + buttonClickCounter + '</p></div>');
+        $('#container').append('<div>' +
+            '<p class="buttonCounter">' +
+            buttonClickCounter +
+            '</p>' +
+            '<button class="swap">Swap</button>' +
+            '<button class="delete">Delete</button>' +
+            '</div>');
     });
 });
