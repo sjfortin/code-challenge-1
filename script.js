@@ -24,10 +24,10 @@ function generateDiv() {
 
 // Remove div when its child delete button is clicked
 function removeDiv() {
-    ($(this)).parent().remove();
+    $(this).parent().remove();
 }
 
 // Toggle div background color when its child swap button is clicked
 function swapColor() {
-    ($(this)).parent().toggleClass('yellow');
+    $(this).parent().toggleClass('yellow');
 }
