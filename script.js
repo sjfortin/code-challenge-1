@@ -16,7 +16,11 @@ $(document).ready(function () {
             '</div>');
     });
 
-    $('#container').on('click', '.delete', function(){
+    $('#container').on('click', '.delete', function () {
         ($(this)).parent().remove();
+    });
+
+    $('#container').on('click', '.swap', function () {
+        ($(this)).parent().toggleClass('yellow');
     });
 });

@@ -1,5 +1,9 @@
 .generated {
-    background: red;
+    background-color: red;
     padding: 2px 5px 5px 5px;
     margin: 15px 0;
+}
+
+.yellow {
+    background-color: yellow;
 }
