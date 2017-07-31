@@ -5,9 +5,9 @@ $(document).ready(function () {
     var buttonClickCounter = 0;
 
     // Event handler for generate button
-    $('#generate').on('click', function () {
+    $('#container').on('click', '#generate', function () {
         buttonClickCounter++;
-        $('#container').append('<div>' +
+        $('#container').append('<div class="generated">' +
             '<p class="buttonCounter">' +
             buttonClickCounter +
             '</p>' +
